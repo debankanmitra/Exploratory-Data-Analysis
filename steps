@@ -1,0 +1,21 @@
+1) viewing columns - df.columns
+2) df.info/dtypes
+3) df.describe
+4)IN DATA ANALYSIS WHAT ALL THINGS WE DO:
+ Missing values [df.isull.sum],features for features in null.sum>0,sns.heatmap
+ explore about numerical and categorical variables 
+ finding relationship betweeen features (it means many other things not just pair plot)
+
+5) merge dataset
+6) come up with observations form each variable ex: final_df.country.value_counts (this results means zomato is mostly available in india )
+            plot pie or bar chart or crosstab based on country
+7) groupby rating .size.resetindex
+    bar plot to visualize aggregate rating and rating count[sns.barplot(x="Aggregate rating",y="Rating Count",hue='Rating color',data=ratings,palette=['blue','red','orange','yellow','green','green'])
+]
+8) find countries that has given 0 ratings            
+9) which country has which currency
+10) which country has online delivery option
+11) plot pie chart with respect to cities
+12) find top 10 cuisines
+
+ best way to perform eda is to first write , which questions to ask from data
